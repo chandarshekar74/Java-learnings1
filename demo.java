@@ -12,3 +12,27 @@ public class demo {
         }
     }
 }
+
+
+class demo2{
+    public static void main(String[] args) {
+String name = new String("Apple");
+String name2 = new String("Apple");
+System.out.println(name.equals(name2));
+    }
+}
+
+class demo3{
+    public static void main(String[] args) {
+String name = new String("Apple");
+String name2 = new String("Banana");
+System.out.println(name.equals(name2));
+    }
+}
+
+ class demo4 {
+    public static void main(String[] args) {
+        int[] numbers = {3, -1, 7, 0, 9};
+        System.out.println(numbers[0]);
+    }
+}
